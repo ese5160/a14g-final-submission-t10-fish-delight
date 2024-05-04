@@ -13,13 +13,18 @@
 
 Device Description
 
-Our project is an IoT automated desktop fish bowl, which we call Fish Delight. Despite the name, it does much more than just dispense a fish bowl. AutoClean also features a proximity and motion sensor that can accurately measure the motion of the user to realize hand motion control, making it an ideal entertainment for employees working in an office all the day. When the motion of the human hand is detected, the smart fish bowl will interact with different actions - either turning on the water fountain or displaying various LED modes.
+Our project, Fish Delight, reimagines the concept of an IoT-enabled desktop fishbowl, offering more than mere aesthetics. Designed to address the mental strain and fatigue that often accompany prolonged office work, Fish Delight serves as a calming and engaging distraction. By enabling intuitive hand motion controls through advanced proximity and motion sensors, it allows office employees to interact with their environment in a refreshingly playful manner. This interactive fishbowl activates features such as a water fountain and a variety of LED displays in response to hand movements, providing visual delight and mental relaxation. The addition of an Internet-connected interface enhances Fish Delight’s functionality significantly. Through a dedicated webpage, users can effortlessly update the embedded hardware's code, allowing for a continuous refresh of LED modes and interactions. This feature not only enhances user engagement but also ensures that the device remains a dynamic and adaptable element of the workspace. With its stylish design and cutting-edge technology, Fish Delight is more than just a decorative item; it's a portal to a more relaxed, creative office atmosphere.
 
-What inspired you to do the project?
+Inspiration
+
+The inspiration behind Fish Delight came from our own experiences working long hours in an office. We noticed how a monotonous environment can really drain your spirit. Looking for a way to add a little spark to the typical office setup, we thought about what makes a space lively yet soothing. That's when we landed on the idea of a fishbowl—not just any fishbowl, but one that interacts with you. We wanted to create something that not only beautifies the desk but also interacts with its owner in a meaningful way, breaking the monotony with a bit of magic. The motion-activated features that bring Fish Delight to life are designed to offer a playful break from the daily routine, engaging both the mind and the senses. Plus, the ability to update and customize the settings via the Internet keeps everything fresh and exciting. It’s all about turning the everyday into something extraordinary.
+
+
+
 Device Functionality
-Explain how your Internet-connected device is designed
-Include sensors, actuators, and other critical components.
-Your block diagram from earlier in this semester will be quite helpful here!
+
+
+
 Challenges
 Where did you face difficulties? This could be in firmware, hardware, software, integration, etc.
 How did you overcome these challenges?
