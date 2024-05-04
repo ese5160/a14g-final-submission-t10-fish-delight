@@ -23,7 +23,7 @@ The inspiration behind Fish Delight came from our own experiences working long h
 
 Device Functionality
 
-
+![Block Diagram](https://github.com/ese5160/a14g-final-submission-t10-fish-delight/main/Copy of Detaild System Block Diagram.jpg)
 
 Challenges
 Where did you face difficulties? This could be in firmware, hardware, software, integration, etc.
