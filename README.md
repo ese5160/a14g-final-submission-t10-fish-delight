@@ -53,7 +53,9 @@ Takeaways from ESE5160
 Project Links
 
 Node-RED link:
+
 A12G repository link: https://github.com/ese5160/a12g-firmware-drivers-t10-fish-delight
+
 Altium 365 link:
 
 
