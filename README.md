@@ -110,15 +110,15 @@ Final project, including any casework or interfacing elements that make up the f
 
 The standalone PCBA, top
 
-
+![The standalone PCBA, top](https://github.com/ese5160/a14g-final-submission-t10-fish-delight/blob/main/board_photo_1.jpg)
 
 The standalone PCBA, bottom
 
+![The standalone PCBA, bottom](https://github.com/ese5160/a14g-final-submission-t10-fish-delight/blob/main/board_photo_2.jpg)
 
+Thermal camera images while the board is running under load
 
-Thermal camera images while the board is running under load (you may use your Board Bringup Thermal image here!)
-
-
+![Thermal camera images while the board is running under load](https://github.com/ese5160/a14g-final-submission-t10-fish-delight/blob/main/FLIR1000098.jpeg)
 
 The Altium Board design in 2D view (screenshot)
 
@@ -135,6 +135,6 @@ Node-RED dashboard (screenshot)
 Node-RED backend (screenshot)
 
 
-Block diagram of your system (You may need to update this to reflect changes throughout the semester.)
+Block diagram of your system
 
 ![Block Diagram](https://github.com/ese5160/a14g-final-submission-t10-fish-delight/blob/main/Copy%20of%20Detaild%20System%20Block%20Diagram.jpg)
