@@ -64,6 +64,42 @@ Altium 365 link:
 
 Link to the Hardware & Software Requirements we drafted at the start of this course: https://github.com/ese5160/a00g-devices-designs-diagrams-yuqi-jiarui/edit/main/README.md
 
-Since we abandoned the PIR sensor, LCD screen, servo motor, temperature sensor, the HRS & SRS related to these components are no longer needed to be fulfilled. Otherwise, the requirements are satisfied. 
+Since we significantly adjusted the overall design of our project where we had abandoned the PIR sensor, LCD screen, servo motor, temperature sensor, the HRS & SRS related to these components were no longer needed to be fulfilled. Otherwise, the requirements are satisfied. Here is a new version of the HRS & SRS, and the corresponding test results:
+
+HRS:
+
+HRS 01 - _The battery shall provide a voltage of 4.2V._
+
+HRS 02 - _The buck converter shall provide a voltage of 3.3V._
+
+HRS 03 - _The buck converter shall provide a voltage of 6V._
+
+HRS 04 - _The SAM D21 chip shall work below a voltage of 3.3V._
+
+HRS 05 - _The APDS9960 proximity sensor shall work below a voltage of 3.3V._
+
+HRS 06 - _The water pump shall work below a voltage of 6V._
+
+HRS 07 - _The DRV8833 motor driver shall work below a voltage of 3.3V._
+
+HRS 08 - _The APDS9960 procimity sensor shall communicate with the SAM D21 via I2C._
+
+HRS 09 - _The APDS9960 procimity sensor shall detect the proximity of an object at a distance from 0 to 50 cm._
+
+HRS 10 - _The APDS9960 procimity sensor shall detect the motion of an object within a distance of 30 cm and tell the direction of motion._
+
+SRS:
+
+SRS 01 - _The device shall be able to restart if the reset button is pressed._
+
+SRS 02 - _The device shall be able to connected to Node-RED and update the firmware remotely._
+
+SRS 03 - _The device shall be able to detect the motion of the user's hand display different LED modes or turn on/off the water fountain._
+
+SRS 04 - _The device shall be able to update firmware via SD card._
+
+All of the HRS & SRS shown above is fulfilled and tested.
+
+
 
 ## 4. Project Photos & Screenshots
