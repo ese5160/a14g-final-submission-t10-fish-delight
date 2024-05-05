@@ -137,5 +137,5 @@ Node-RED backend (screenshot)
 
 Block diagram of your system (You may need to update this to reflect changes throughout the semester.)
 
-![Block Diagram](https://github.com/ese5160/a14g-final-submission-t10-fish-delight/blob/main/Copy%20of%20Detaild%20System%20Block%20Diagram.jpg)
+![Block Diagram](https://github.com/ese5160/a14g-final-submission-t10-fish-delight/blob/main/Simple%20System%20BLock%20Diagram.drawio.png)
 
