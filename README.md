@@ -122,10 +122,11 @@ Thermal camera images while the board is running under load (you may use your Bo
 
 The Altium Board design in 2D view (screenshot)
 
-
+![2D Board Layout](https://github.com/ese5160/a14g-final-submission-t10-fish-delight/blob/main/Screenshot%202024-05-04%20at%2021.00.33.png)
 
 The Altium Board design in 3D view (screenshot)
 
+![3D Board Layout](https://github.com/ese5160/a14g-final-submission-t10-fish-delight/blob/main/Screenshot%202024-05-04%20at%2021.00.33.png)
 
 Node-RED dashboard (screenshot)
 
@@ -136,5 +137,5 @@ Node-RED backend (screenshot)
 
 Block diagram of your system (You may need to update this to reflect changes throughout the semester.)
 
-
+![Block Diagram](https://github.com/ese5160/a14g-final-submission-t10-fish-delight/blob/main/Copy%20of%20Detaild%20System%20Block%20Diagram.jpg)
 
