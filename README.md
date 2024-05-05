@@ -57,7 +57,7 @@ Node-RED link:
 
 A12G repository link: https://github.com/ese5160/a12g-firmware-drivers-t10-fish-delight
 
-Altium 365 link:
+Altium 365 link: https://upenn-eselabs.365.altium.com/designs/6374A026-8669-40C9-951C-E9E3D496B04A
 
 
 ## 3. Hardware & Software Requirements
@@ -103,3 +103,38 @@ All of the HRS & SRS shown above is fulfilled and tested.
 
 
 ## 4. Project Photos & Screenshots
+
+Final project, including any casework or interfacing elements that make up the full project (3D prints, screens, buttons, etc)
+
+
+
+The standalone PCBA, top
+
+
+
+The standalone PCBA, bottom
+
+
+
+Thermal camera images while the board is running under load (you may use your Board Bringup Thermal image here!)
+
+
+
+The Altium Board design in 2D view (screenshot)
+
+
+
+The Altium Board design in 3D view (screenshot)
+
+
+Node-RED dashboard (screenshot)
+
+
+
+Node-RED backend (screenshot)
+
+
+Block diagram of your system (You may need to update this to reflect changes throughout the semester.)
+
+
+
