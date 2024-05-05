@@ -62,4 +62,8 @@ Altium 365 link:
 
 ## 3. Hardware & Software Requirements
 
+Link to the Hardware & Software Requirements we drafted at the start of this course: https://github.com/ese5160/a00g-devices-designs-diagrams-yuqi-jiarui/edit/main/README.md
+
+Since we abandoned the PIR sensor, LCD screen, servo motor, temperature sensor, the HRS & SRS related to these components are no longer needed to be fulfilled. Otherwise, the requirements are satisfied. 
+
 ## 4. Project Photos & Screenshots
