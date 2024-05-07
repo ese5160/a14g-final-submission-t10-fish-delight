@@ -8,6 +8,7 @@
     * Description of test hardware: board + sensor + acturator
 
 ## 1. Video Presentation
+https://drive.google.com/file/d/1TBw26h3v0m9ngAQYDI2oFyIDSj1BkLVK/view?usp=sharing
 
 ## 2. Project Summary
 
@@ -53,7 +54,7 @@ Takeaways from ESE5160
 
 Project Links
 
-Node-RED link:
+Node-RED link: http://23.96.115.3:1880
 
 A12G repository link: https://github.com/ese5160/a12g-firmware-drivers-t10-fish-delight
 
