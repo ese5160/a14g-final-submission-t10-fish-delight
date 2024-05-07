@@ -26,7 +26,7 @@ The inspiration behind Fish Delight came from our own experiences working long h
 
 Fish Delight harnesses the precision of hand motion detection to activate and control various functions, enriching the user experience with intuitive gesture-based interaction. The device features a sophisticated gesture sensor (APDS-9960) which captures hand movements, enabling users to effortlessly switch between different operational modes. Users can turn the water fountain on or off and select from a variety of LED modes, including blinking, running, and static displays, all through simple hand gestures. The device is powered efficiently through a well-designed circuit that includes both a 6V boost converter and a 3.3V buck converter. This power regulation system ensures that all components, from the gesture sensors to the LEDs and water pump, operate reliably at their required voltages. The inclusion of a WiFi controller (WINC 1500) allows the device to connect to the internet, enabling updates and remote interactions through a user-friendly web interface. With its blend of interactive technology and efficient power management, Fish Delight is not just a decorative piece but a dynamic and engaging addition to any office space.
 
-![](https://drive.google.com/file/d/1cm0UYku9ewCw7aEZIEw9hkMb9fAVmWd7/view?usp=sharing)
+![](./SimpleBlock.png)
   
 ### Challenges
 
@@ -53,7 +53,7 @@ We want to explore further enhancements for Fish Delight that will expand both i
 
 Project Links
 
-Node-RED link: http://23.96.115.3:1880
+Node-RED link: https://github.com/ese5160/a12g-firmware-drivers-t10-fish-delight/blob/main/FishDelight/Node-RED/FishDelightDashboard.json
 
 A12G repository link: https://github.com/ese5160/a12g-firmware-drivers-t10-fish-delight
 
@@ -66,37 +66,37 @@ Link to the Hardware & Software Requirements we drafted at the start of this cou
 
 Since we significantly adjusted the overall design of our project where we had abandoned the PIR sensor, LCD screen, servo motor, temperature sensor, the HRS & SRS related to these components were no longer needed to be fulfilled. Otherwise, the requirements are satisfied. Here is a new version of the HRS & SRS, and the corresponding test results:
 
-HRS:
+### HRS:
 
-HRS 01 - _The battery shall provide a voltage of 4.2V._
+* HRS 01 - _The battery shall provide a voltage of 4.2V._
 
-HRS 02 - _The buck converter shall provide a voltage of 3.3V._
+* HRS 02 - _The buck converter shall provide a voltage of 3.3V._
 
-HRS 03 - _The buck converter shall provide a voltage of 6V._
+* HRS 03 - _The buck converter shall provide a voltage of 6V._
 
-HRS 04 - _The SAM D21 chip shall work below a voltage of 3.3V._
+* HRS 04 - _The SAM D21 chip shall work below a voltage of 3.3V._
 
-HRS 05 - _The APDS9960 proximity sensor shall work below a voltage of 3.3V._
+* HRS 05 - _The APDS9960 proximity sensor shall work below a voltage of 3.3V._
 
-HRS 06 - _The water pump shall work below a voltage of 6V._
+* HRS 06 - _The water pump shall work below a voltage of 6V._
 
-HRS 07 - _The DRV8833 motor driver shall work below a voltage of 3.3V._
+* HRS 07 - _The DRV8833 motor driver shall work below a voltage of 3.3V._
 
-HRS 08 - _The APDS9960 procimity sensor shall communicate with the SAM D21 via I2C._
+* HRS 08 - _The APDS9960 procimity sensor shall communicate with the SAM D21 via I2C._
 
-HRS 09 - _The APDS9960 procimity sensor shall detect the proximity of an object at a distance from 0 to 50 cm._
+* HRS 09 - _The APDS9960 procimity sensor shall detect the proximity of an object at a distance from 0 to 50 cm._
 
-HRS 10 - _The APDS9960 procimity sensor shall detect the motion of an object within a distance of 30 cm and tell the direction of motion._
+* HRS 10 - _The APDS9960 procimity sensor shall detect the motion of an object within a distance of 30 cm and tell the direction of motion._
 
-SRS:
+### SRS:
 
-SRS 01 - _The device shall be able to restart if the reset button is pressed._
+* SRS 01 - _The device shall be able to restart if the reset button is pressed._
 
-SRS 02 - _The device shall be able to connected to Node-RED and update the firmware remotely._
+* SRS 02 - _The device shall be able to connected to Node-RED and update the firmware remotely._
 
-SRS 03 - _The device shall be able to detect the motion of the user's hand display different LED modes or turn on/off the water fountain._
+* SRS 03 - _The device shall be able to detect the motion of the user's hand display different LED modes or turn on/off the water fountain._
 
-SRS 04 - _The device shall be able to update firmware via SD card._
+* SRS 04 - _The device shall be able to update firmware via SD card._
 
 All of the HRS & SRS shown above is fulfilled and tested.
 
@@ -106,35 +106,33 @@ All of the HRS & SRS shown above is fulfilled and tested.
 
 Final project, including any casework or interfacing elements that make up the full project (3D prints, screens, buttons, etc)
 
-
-
 The standalone PCBA, top
 
-![The standalone PCBA, top](https://github.com/ese5160/a14g-final-submission-t10-fish-delight/blob/main/board_photo_1.jpg)
+![The standalone PCBA, top](./board_photo_1.jpg)
 
 The standalone PCBA, bottom
 
-![The standalone PCBA, bottom](https://github.com/ese5160/a14g-final-submission-t10-fish-delight/blob/main/board_photo_2.jpg)
+![The standalone PCBA, bottom](./board_photo_2.jpg)
 
 Thermal camera images while the board is running under load
 
-![Thermal camera images while the board is running under load](https://github.com/ese5160/a14g-final-submission-t10-fish-delight/blob/main/FLIR1000098.jpeg)
+![Thermal camera images while the board is running under load](./FLIR1000098.jpeg)
 
 The Altium Board design in 2D view (screenshot)
 
-![2D Board Layout](https://github.com/ese5160/a14g-final-submission-t10-fish-delight/blob/main/Screenshot%202024-05-04%20at%2021.00.33.png)
+![2D Board Layout](./2DView.png)
 
 The Altium Board design in 3D view (screenshot)
 
-![3D Board Layout](https://github.com/ese5160/a14g-final-submission-t10-fish-delight/blob/main/Screenshot%202024-05-04%20at%2021.03.22.png)
+![3D Board Layout](./3DView.png)
 
 Node-RED dashboard (screenshot)
-
+![dashboard](./dashboard.png)
 
 
 Node-RED backend (screenshot)
-
+![backend](./backend.png)
 
 Block diagram of your system
 
-![Block Diagram](https://github.com/ese5160/a14g-final-submission-t10-fish-delight/blob/main/Copy%20of%20Detaild%20System%20Block%20Diagram.jpg)
+![Block Diagram](./DetailedBlock.jpg)
