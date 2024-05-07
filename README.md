@@ -115,19 +115,19 @@ The standalone PCBA, top
 
 The standalone PCBA, bottom
 
-![The standalone PCBA, bottom](https://github.com/ese5160/a14g-final-submission-t10-fish-delight/blob/main/board_photo_2.jpg)
+![The standalone PCBA, bottom](./board_photo_2.jpg)
 
 Thermal camera images while the board is running under load
 
-![Thermal camera images while the board is running under load](https://github.com/ese5160/a14g-final-submission-t10-fish-delight/blob/main/FLIR1000098.jpeg)
+![Thermal camera images while the board is running under load](./FLIR1000098.jpeg)
 
 The Altium Board design in 2D view (screenshot)
 
-![2D Board Layout](https://github.com/ese5160/a14g-final-submission-t10-fish-delight/blob/main/Screenshot%202024-05-04%20at%2021.00.33.png)
+![2D Board Layout](./Screenshot 2024-05-04 at 21.00.33.png)
 
 The Altium Board design in 3D view (screenshot)
 
-![3D Board Layout](https://github.com/ese5160/a14g-final-submission-t10-fish-delight/blob/main/Screenshot%202024-05-04%20at%2021.03.22.png)
+![3D Board Layout](./Screenshot 2024-05-04 at 21.03.22.png)
 
 Node-RED dashboard (screenshot)
 
@@ -138,4 +138,4 @@ Node-RED backend (screenshot)
 
 Block diagram of your system
 
-![Block Diagram](https://github.com/ese5160/a14g-final-submission-t10-fish-delight/blob/main/Copy%20of%20Detaild%20System%20Block%20Diagram.jpg)
+![Block Diagram](./Copy of Detaild System Block Diagram.jp)
