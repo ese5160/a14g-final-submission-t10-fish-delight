@@ -138,4 +138,4 @@ Node-RED backend (screenshot)
 
 Block diagram of your system
 
-![Block Diagram](./Copy of Detaild System Block Diagram.jp)
+![Block Diagram](./DetailedBlock.jpg)
