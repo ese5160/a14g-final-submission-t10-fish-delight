@@ -28,11 +28,11 @@ Fish Delight harnesses the precision of hand motion detection to activate and co
 ![](./SimpleBlock.png)
 
 ### Challenges
-
+![](./SimpleBlock.png)
 One of the most significant challenges we encountered with Fish Delight was in the PCB assembly (PCBA) process, specifically with manufacturing errors and the subsequent testing and correction of circuit functionality. A critical error occurred when a 118 Ohm resistor was mistakenly used in place of a 118k Ohm resistor. This discrepancy caused the boost converter to output an incorrect voltage, leading to functionality issues with the entire system. During our attempts to diagnose and rectify the issue with the boost converter circuit, we faced further complications. In the process of testing, we accidentally damaged the copper test points and jumper pads, rendering the first circuit board unusable. Fortunately, after these initial hurdles, we managed to successfully implement the corrections on our last remaining board. This experience not only taught us the importance of meticulous verification of component specifications but also highlighted the need for careful handling during circuit testing. Ultimately, these challenges were valuable learning opportunities, enabling us to improve our design and testing protocols, ensuring that the final product met our high standards of functionality and reliability.
-
+![](./SimpleBlock.png)
 ### Prototype Learnings
-
+![](./SimpleBlock.png)
 The experience of this project not only taught us the importance of meticulous verification of component specifications but also highlighted the need for careful handling during circuit testing. Ultimately, these challenges were valuable learning opportunities, enabling us to improve our design and testing protocols, ensuring that the final product met our high standards of functionality and reliability. If we have a chance to do this project again, we would prefer to install the sensor out of the main board via wires and connector to provide more space and flexibilty for user to interact with the deivce.
 
 ### Next Steps
