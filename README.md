@@ -8,7 +8,7 @@
     * Description of test hardware: board + sensor + acturator
 
 ## 1. Video Presentation
-https://drive.google.com/file/d/1TBw26h3v0m9ngAQYDI2oFyIDSj1BkLVK/view?usp=sharing
+[FishDelight Demonstration](https://drive.google.com/file/d/1TBw26h3v0m9ngAQYDI2oFyIDSj1BkLVK/view?usp=sharing)
 
 ## 2. Project Summary
 
@@ -25,7 +25,6 @@ The inspiration behind Fish Delight came from our own experiences working long h
 ### Device Functionality
 
 Fish Delight harnesses the precision of hand motion detection to activate and control various functions, enriching the user experience with intuitive gesture-based interaction. The device features a sophisticated gesture sensor (APDS-9960) which captures hand movements, enabling users to effortlessly switch between different operational modes. Users can turn the water fountain on or off and select from a variety of LED modes, including blinking, running, and static displays, all through simple hand gestures. The device is powered efficiently through a well-designed circuit that includes both a 6V boost converter and a 3.3V buck converter. This power regulation system ensures that all components, from the gesture sensors to the LEDs and water pump, operate reliably at their required voltages. The inclusion of a WiFi controller (WINC 1500) allows the device to connect to the internet, enabling updates and remote interactions through a user-friendly web interface. With its blend of interactive technology and efficient power management, Fish Delight is not just a decorative piece but a dynamic and engaging addition to any office space.
-
 ![](./SimpleBlock.png)
 
 ### Challenges
@@ -53,11 +52,11 @@ We want to explore further enhancements for Fish Delight that will expand both i
 
 Project Links
 
-Node-RED link: https://github.com/ese5160/a12g-firmware-drivers-t10-fish-delight/blob/main/FishDelight/Node-RED/FishDelightDashboard.json
+Node-RED link: [Node-Red JSON Code](https://github.com/ese5160/a12g-firmware-drivers-t10-fish-delight/blob/main/FishDelight/Node-RED/FishDelightDashboard.json)
 
-A12G repository link: https://github.com/ese5160/a12g-firmware-drivers-t10-fish-delight
+A12G repository link: [Code Repository](https://github.com/ese5160/a12g-firmware-drivers-t10-fish-delight)
 
-Altium 365 link: https://upenn-eselabs.365.altium.com/designs/6374A026-8669-40C9-951C-E9E3D496B04A
+Altium 365 link: [Altium PCB Design](https://upenn-eselabs.365.altium.com/designs/6374A026-8669-40C9-951C-E9E3D496B04A)
 
 
 ## 3. Hardware & Software Requirements
