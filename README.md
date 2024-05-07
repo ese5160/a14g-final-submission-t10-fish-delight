@@ -54,7 +54,7 @@ We want to explore further enhancements for Fish Delight that will expand both i
 
 Project Links
 
-Node-RED link: http://23.96.115.3:1880
+Node-RED link: https://github.com/ese5160/a12g-firmware-drivers-t10-fish-delight/blob/main/FishDelight/Node-RED/FishDelightDashboard.json
 
 A12G repository link: https://github.com/ese5160/a12g-firmware-drivers-t10-fish-delight
 
