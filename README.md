@@ -26,7 +26,7 @@ The inspiration behind Fish Delight came from our own experiences working long h
 
 Fish Delight harnesses the precision of hand motion detection to activate and control various functions, enriching the user experience with intuitive gesture-based interaction. The device features a sophisticated gesture sensor (APDS-9960) which captures hand movements, enabling users to effortlessly switch between different operational modes. Users can turn the water fountain on or off and select from a variety of LED modes, including blinking, running, and static displays, all through simple hand gestures. The device is powered efficiently through a well-designed circuit that includes both a 6V boost converter and a 3.3V buck converter. This power regulation system ensures that all components, from the gesture sensors to the LEDs and water pump, operate reliably at their required voltages. The inclusion of a WiFi controller (WINC 1500) allows the device to connect to the internet, enabling updates and remote interactions through a user-friendly web interface. With its blend of interactive technology and efficient power management, Fish Delight is not just a decorative piece but a dynamic and engaging addition to any office space.
 
-![](https://drive.google.com/file/d/1cm0UYku9ewCw7aEZIEw9hkMb9fAVmWd7/view?usp=sharing)
+![](./SimpleBlockDiagram.png)
   
 ### Challenges
 
