@@ -28,7 +28,6 @@ Fish Delight harnesses the precision of hand motion detection to activate and co
 
 ![](./SimpleBlock.png)
 
-
 ### Challenges
 
 One of the most significant challenges we encountered with Fish Delight was in the PCB assembly (PCBA) process, specifically with manufacturing errors and the subsequent testing and correction of circuit functionality. A critical error occurred when a 118 Ohm resistor was mistakenly used in place of a 118k Ohm resistor. This discrepancy caused the boost converter to output an incorrect voltage, leading to functionality issues with the entire system. During our attempts to diagnose and rectify the issue with the boost converter circuit, we faced further complications. In the process of testing, we accidentally damaged the copper test points and jumper pads, rendering the first circuit board unusable. Fortunately, after these initial hurdles, we managed to successfully implement the corrections on our last remaining board. This experience not only taught us the importance of meticulous verification of component specifications but also highlighted the need for careful handling during circuit testing. Ultimately, these challenges were valuable learning opportunities, enabling us to improve our design and testing protocols, ensuring that the final product met our high standards of functionality and reliability.
@@ -67,37 +66,37 @@ Link to the Hardware & Software Requirements we drafted at the start of this cou
 
 Since we significantly adjusted the overall design of our project where we had abandoned the PIR sensor, LCD screen, servo motor, temperature sensor, the HRS & SRS related to these components were no longer needed to be fulfilled. Otherwise, the requirements are satisfied. Here is a new version of the HRS & SRS, and the corresponding test results:
 
-HRS:
+### HRS:
 
-HRS 01 - _The battery shall provide a voltage of 4.2V._
+* HRS 01 - _The battery shall provide a voltage of 4.2V._
 
-HRS 02 - _The buck converter shall provide a voltage of 3.3V._
+* HRS 02 - _The buck converter shall provide a voltage of 3.3V._
 
-HRS 03 - _The buck converter shall provide a voltage of 6V._
+* HRS 03 - _The buck converter shall provide a voltage of 6V._
 
-HRS 04 - _The SAM D21 chip shall work below a voltage of 3.3V._
+* HRS 04 - _The SAM D21 chip shall work below a voltage of 3.3V._
 
-HRS 05 - _The APDS9960 proximity sensor shall work below a voltage of 3.3V._
+* HRS 05 - _The APDS9960 proximity sensor shall work below a voltage of 3.3V._
 
-HRS 06 - _The water pump shall work below a voltage of 6V._
+* HRS 06 - _The water pump shall work below a voltage of 6V._
 
-HRS 07 - _The DRV8833 motor driver shall work below a voltage of 3.3V._
+* HRS 07 - _The DRV8833 motor driver shall work below a voltage of 3.3V._
 
-HRS 08 - _The APDS9960 procimity sensor shall communicate with the SAM D21 via I2C._
+* HRS 08 - _The APDS9960 procimity sensor shall communicate with the SAM D21 via I2C._
 
-HRS 09 - _The APDS9960 procimity sensor shall detect the proximity of an object at a distance from 0 to 50 cm._
+* HRS 09 - _The APDS9960 procimity sensor shall detect the proximity of an object at a distance from 0 to 50 cm._
 
-HRS 10 - _The APDS9960 procimity sensor shall detect the motion of an object within a distance of 30 cm and tell the direction of motion._
+* HRS 10 - _The APDS9960 procimity sensor shall detect the motion of an object within a distance of 30 cm and tell the direction of motion._
 
-SRS:
+### SRS:
 
-SRS 01 - _The device shall be able to restart if the reset button is pressed._
+* SRS 01 - _The device shall be able to restart if the reset button is pressed._
 
-SRS 02 - _The device shall be able to connected to Node-RED and update the firmware remotely._
+* SRS 02 - _The device shall be able to connected to Node-RED and update the firmware remotely._
 
-SRS 03 - _The device shall be able to detect the motion of the user's hand display different LED modes or turn on/off the water fountain._
+* SRS 03 - _The device shall be able to detect the motion of the user's hand display different LED modes or turn on/off the water fountain._
 
-SRS 04 - _The device shall be able to update firmware via SD card._
+* SRS 04 - _The device shall be able to update firmware via SD card._
 
 All of the HRS & SRS shown above is fulfilled and tested.
 
@@ -106,8 +105,6 @@ All of the HRS & SRS shown above is fulfilled and tested.
 ## 4. Project Photos & Screenshots
 
 Final project, including any casework or interfacing elements that make up the full project (3D prints, screens, buttons, etc)
-
-
 
 The standalone PCBA, top
 
@@ -130,12 +127,13 @@ The Altium Board design in 3D view (screenshot)
 ![3D Board Layout](./3DView.png)
 
 Node-RED dashboard (screenshot)
-
+![dashboard](./dashboard.png)
 
 
 Node-RED backend (screenshot)
-
+![backend](./backend.png)
 
 Block diagram of your system
 
 ![Block Diagram](./DetailedBlock.jpg)
+
