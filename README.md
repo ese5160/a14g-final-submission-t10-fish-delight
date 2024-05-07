@@ -111,7 +111,7 @@ Final project, including any casework or interfacing elements that make up the f
 
 The standalone PCBA, top
 
-![The standalone PCBA, top](https://github.com/ese5160/a14g-final-submission-t10-fish-delight/blob/main/board_photo_1.jpg)
+![The standalone PCBA, top](./board_photo_1.jpg)
 
 The standalone PCBA, bottom
 
